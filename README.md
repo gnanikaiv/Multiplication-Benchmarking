@@ -1,4 +1,4 @@
-# Urdhva Thiryagbhyam Vedic Multiplication Benchmark
+# Conventional vs Urdhva Thiryagbhyam Vedic Multiplication Benchmark Using Python
 
 This repository contains a comprehensive benchmark comparing **conventional multiplication** using Python’s built-in operator to the traditional **Urdhva Thiryagbhyam Vedic multiplication** method. The Vedic method implements the ancient "Vertical and Crosswise" technique, manually handling digit-wise multiplication and carries.
 
