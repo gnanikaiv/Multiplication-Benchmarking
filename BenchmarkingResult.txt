@@ -1,0 +1,123 @@
+URDHVA THIRYAGBHYAM VEDIC MULTIPLICATION BENCHMARK
+============================================================
+
+============================================================
+DEMONSTRATION OF MULTIPLICATION METHODS
+============================================================
+
+Example: 3 × 7
+------------------------------
+ Conventional result: 21
+ Vedic result: 21
+Both methods agree!
+
+Example: 9 × 8
+------------------------------
+ Conventional result: 72
+ Vedic result: 72
+Both methods agree!
+
+Example: 23 × 45
+------------------------------
+ Conventional result: 1035
+ Vedic result: 1035
+Both methods agree!
+
+Example: 123 × 456
+------------------------------
+ Conventional result: 56088
+ Vedic result: 56088
+Both methods agree!
+
+Example: 99 × 99
+------------------------------
+ Conventional result: 9801
+ Vedic result: 9801
+Both methods agree!
+
+Example: 12 × 34
+------------------------------
+ Conventional result: 408
+ Vedic result: 408
+Both methods agree!
+================================================================================
+VEDIC MULTIPLICATION BENCHMARK
+Comparing Conventional vs Urdhva Thiryagbhyam Methods
+================================================================================
+
+==================================================
+CORRECTNESS VERIFICATION
+==================================================
+Verifying correctness of Vedic multiplication...
+ All 30 tests passed!
+
+==================================================
+PERFORMANCE BENCHMARKING
+==================================================
+
+ Testing Range 1: 1 to 9
+----------------------------------------
+Average times (per operation):
+  Conventional:     0.00000012 seconds
+  Urdhva Thiryag:   0.00000341 seconds
+Performance ratio:  28.10x
+Vedic is 28.10x slower
+
+ Testing Range 2: 10 to 99
+----------------------------------------
+Average times (per operation):
+  Conventional:     0.00000011 seconds
+  Urdhva Thiryag:   0.00000572 seconds
+Performance ratio:  50.27x
+Vedic is 50.27x slower
+
+ Testing Range 3: 100 to 999
+----------------------------------------
+Average times (per operation):
+  Conventional:     0.00000014 seconds
+  Urdhva Thiryag:   0.00000869 seconds
+Performance ratio:  61.07x
+Vedic is 61.07x slower
+
+ Testing Range 4: 1000 to 9999
+----------------------------------------
+Average times (per operation):
+  Conventional:     0.00000012 seconds
+  Urdhva Thiryag:   0.00001214 seconds
+Performance ratio:  105.02x
+Vedic is 105.02x slower
+
+ Testing Range 5: 10000 to 99999
+----------------------------------------
+Average times (per operation):
+  Conventional:     0.00000013 seconds
+  Urdhva Thiryag:   0.00001743 seconds
+Performance ratio:  132.67x
+Vedic is 132.67x slower
+
+==================================================
+OVERALL PERFORMANCE SUMMARY
+==================================================
+Overall average times:
+  Conventional:     0.00000012 seconds
+  Urdhva Thiryag:   0.00000948 seconds
+Overall ratio:      75.89x
+Vedic method is 75.89x slower overall
+
+================================================================================
+ANALYSIS SUMMARY
+================================================================================
+
+OBSERVATIONS:
+
+1. CONVENTIONAL MULTIPLICATION:
+   - Uses Python's built-in multiplication operator (*)
+   - Highly optimized at the C language level
+   - Consistently fast across all number ranges
+   - Handles all edge cases automatically
+
+2. URDHVA THIRYAGBHYAM VEDIC METHOD:
+   - Implements the traditional "Vertical and Crosswise" technique
+   - Works by multiplying digits in a specific pattern
+   - Requires manual handling of carries and string operations
+   - More computational steps due to digit-by-digit processing
